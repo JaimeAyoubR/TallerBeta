@@ -3,6 +3,13 @@
 	"EngineAssociation": "5.4",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "TallerBeta",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -11,5 +18,8 @@
 				"Editor"
 			]
 		}
+	],
+	"TargetPlatforms": [
+		"Windows"
 	]
 }
